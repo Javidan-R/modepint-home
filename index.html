@@ -7,76 +7,126 @@
     <meta name="keywords" content="Modepoint, shooting services, photo, video, fashion, Baku">
     <title>Modepoint - Premium Photo and Video Services</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Bentham' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <a href="#"><img src="./assets/image/main-logo.jpg" alt="Modepoint Logo"></a>
-            </div>
-            <nav>
-                <ul class="navigation">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </nav>
-            <div class="social-icons">
-                <a href="#"><img src="./assets/image/photo 1.jpg"alt=""></a>
-                <a href="#"><img src="./assets/image/social-media 1.jpg" alt=""></a>
-                <a href="#"><img src="./assets/image/business 1.jpg" alt=""></a>
-                <a href="#"><img src="./assets/image/globe 1.png" alt=""></a>
-                <a href="#"><img src="./assets/image/right-arrow 1.png" alt=""></a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 px-5">
+                    <nav class="navbar navbar-expand-lg navbar-light my-3">
+                        <div class="container-fluid justify-content-between">
+                            <a class="navbar-brand logo-mobile" href="modepoint.html"><img src="./assets/image/logos/modepoint-logo-sm.png" alt="Center Logo" class="img-fluid"></a>
+                            <button class="navbar-toggler mx-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <div class="row col-md-12">
+                                    <div class="col-12 col-lg-8 navbar-menu">
+                                        <ul class="navbar-nav navigation">
+                                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-lg-4 text-right">
+                                        <!-- <a href="#" class="nav-link d-inline"><i class="fab fa-instagram"></i></a>
+                                        <a href="#" class="nav-link d-inline"><i class="fa fa-facebook-f"></i></a>
+                                        <a href="#" class="nav-link d-inline"><i class="fab fa-linkedin"></i></a> -->
+                                        <a href="#" class="nav-link d-inline"><img style="width: 16px;" src="./assets/image/icons/icon-insta.svg" alt=""></a>
+                                        <a href="#" class="nav-link d-inline"><img style="width: 16px;" src="./assets/image/icons/icon-facebook.svg" alt=""></a>
+                                        <a href="#" class="nav-link d-inline"><img style="width: 16px;" src="./assets/image/icons/icon-in.svg" alt=""></a>    
+                        
+                                        <div class="dropdown d-inline py-2">
+                                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <!-- <i class="fas fa-globe"></i> -->
+                                                <img src="./assets/image/icons/icon-globe.svg" style="width: 16px;" alt="">
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" href="#" onclick="setLanguage('en')">EN</a>
+                                                <a class="dropdown-item" href="modepoint_ru.html" onclick="setLanguage('ru')">RU</a>
+                                                <a class="dropdown-item" href="modepoint_az.html" onclick="setLanguage('az')">AZ</a>
+                                            </div>
+                                        </div>
+                                    </div>  
 
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
             </div>
+ </div>
         </div>
-    </header>
-
-    <section class="hero">
-        <div class="hero-logo">
-            <img src="./assets/image/second-logo.png" alt="">
-        </div>
-        <div class="hero-block">
-            <div class="hero-image">
-                <img src="./assets/image/img1.jpg" alt="Fashion Photography">
-            </div>
-            <div class="hero-content">
-                <h1>Modepoint Shooting Services: 
-                    Where Innovation Meets Creativity</h1>
-                <p>At Modepoint, we offer premium photo and video shooting services tailored to the unique needs of the fashion industry. With our cutting-edge technology and state-of-the-art studio, we ensure your brand’s vision comes to life with stunning quality and precision. </p>
-                <div class="social-icons">
-                    Our Media :
-                    <a href="#"><img src="./assets/image/instagram (2) 2.png"alt=""></a>
-                    <a href="#"><img src="./assets/image/facebook (1) 2.png" alt=""></a>
+  
+        <section class="modepoint-services">
+            <div class="container-fluid p-0">
+                <!-- Left Image -->
+                <div class="dark-section p-0 w-100">
+                    <div class="top-img">
+                        <img src="assets/image/second-logo.png" alt="Modepoint Fashion Image" class="img-fluid w-100">
                     </div>
-            </div>
-        </div>
-    </section>
     
-    <section class="services">
-        <div class="services-content">
-            <p>Our experienced team of professionals, including expert photographers, videographers, and models, collaborate to craft visual content that captivates and resonates with your audience. From lookbooks and fashion campaigns to social media content and editorial shoots, we deliver a seamless experience, making your brand stand out in the ever-evolving fashion landscape.</p>
-            <div class="booking">
-                <h3>For Booking</h3>
-                <button class="contact-button">+994-099-993-33-13</button>
+                    <div class="row w-100 m-0">
+                        <div class="col-lg-6 p-0">
+                            <img src="assets/image/img1.jpg" alt="Modepoint Fashion Image" class="img-fluid left-img w-100">
+                        </div>
+                        <!-- Right Text Content with dark background -->
+                        <div class="col-lg-6 d-flex flex-column justify-content-center  p-0 m-0">
+                            <div class="content-box text-white h-100">
+                                <div class="p-5 d-flex flex-column justify-content-between h-100">
+                                    <h1 class="heading">Modepoint Shooting Services: <br> Where Innovation Meets Creativity</h1>
+                                    <p>At Modepoint, we offer premium photo and video shooting services tailored to the unique needs of the fashion industry. With our cutting-edge technology and state-of-the-art studio, we ensure your brand's vision comes to life with stunning quality and precision.</p>
+                                    <div class="media-icons">
+                                        <h6 class="text-white f-w-700" style="width: 100px;">Our Media :</h6>
+                                        <a href="#"><img src="assets/image/icons/icon-insta.svg" alt="" class="icon-white"></a>
+                                        <a href="#"><img src="assets/image/icons/icon-facebook.svg" alt="" class="icon-white"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Lower Section -->
+                <div class="h-100">
+                    <div class="row w-100 m-0">
+                        <div class="col-lg-6 d-flex flex-column justify-content-around p-5">
+                            <!-- <div class="h-100 d-flex flex-column  align-items-between"> -->
+                                <p>Our experienced team of professionals, including expert photographers, videographers, and models, collaborate to craft visual content that captivates and resonates with your audience. From lookbooks and fashion campaigns to social media content and editorial shoots, we deliver a seamless experience, making your brand stand out in the ever-evolving fashion landscape.</p>
+                                <div>
+                                    <h5>For Booking:</h5>
+                                    <div class="booking-button">
+                                        <a href="tel:+994-099-993-33-13" class="btn-outline">+994-099-993-33-13</a>
+                                    </div>
+                                </div>
+                            <!-- </div> -->
+                        </div>
+                        <div class="col-lg-6 p-0 m-0 text-center">
+                            <img src="assets/image/img2.jpg" alt="Modepoint Fashion Image" class="img-fluid w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <div class="container-fluid p-0">
+            <div class="row w-100 p-0 m-0">
+                <div class="col-12 p-0 d-flex">
+                    <iframe width="100%" height="600px" src="https://www.youtube.com/embed/7gH8wtds7hA?si=En_7jgTla7s1ATSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
-        <div class="services-image">
-            <img src="./assets/image/img2.jpg" alt="Professional Studio">
-        </div>
-    </section>
-    <div class="media-video">
-        <iframe width="380" height="540" src="https://www.youtube.com/embed/FAKzZBnyqdY" 
-        title="YouTube video player" frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen></iframe>
-    </div>
-    <section class="contact-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3031.523819837138!2d49.858165415772204!3d40.38544007936892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x403063aab77df881%3A0xe3f1f05f2b085351!2sBaku%2C+Azerbaijan!5e0!3m2!1sen!2s!4v1637760782821!5m2!1sen!2s" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </section>
+    
+        <section class="map m-0">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d664.2146898529744!2d49.8288842954337!3d40.36813720225393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dc83f9dc481%3A0x21b9894e3a69b1d!2sHasan%20Abdullayev%2C%20Baku!5e0!3m2!1sen!2saz!4v1723445341681!5m2!1sen!2saz" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
      <!-- Contact Section -->
 <section class="contact-section">
     <div class="container">
@@ -113,35 +163,119 @@
     </div>
 </section>
 <!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="footer-left">
-            <a href="#"><img src="./assets/image/second-logo.png" alt="Modepoint Logo"></a>
-        </div>
-        <div class="footer-right">
-            <div class="footer-navigation">
-                <h3>Navigation :</h3>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
+<footer class="footer p-5">
+    <div class="container-fluid p-5">
+        <div class="d-flex justify-content-between p-5">
+            <div>
+                <img class="img-fluid w-100"  src="./assets/image/BFW-footer-logo.png" alt="">
             </div>
-            <div class="footer-projects">
-                <h3>Projects:</h3>
-                <ul>
-                    <li><a href="#">Baku Fashion Week</a></li>
-                    <li><a href="#">Baku Fashion Academy</a></li>
-                    <li><a href="#">Uventa</a></li>
-                </ul>
+            <div class="d-flex">
+                <div class="m-5">
+                    <h4 class="mb-5">Navigation:</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a href="modepoint.html" class="text-decoration-none">
+                                Home
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="about.html" class="text-decoration-none">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="events.html" class="text-decoration-none">
+                               Events
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="blog.html" class="text-decoration-none">
+                                Blog
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="m-5">
+                    <h4 class="mb-5">Projects:</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <a href="bfw.html" class="text-decoration-none">
+                                Baku Fashion Week
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="bfa.html" class="text-decoration-none">
+                                Baku Fashion Academy
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="uventa.html" class="text-decoration-none">
+                                Uventa
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-    <div class="footer-bottom">
-        © All Rights Reserved. Modepoint 2024.  
+    <div class="text-center">
+        <p class="license">
+            © All Rights Reserved. Modepoint 2024.
+        </p>
     </div>
-</footer>
 
+</footer>
+<script>
+    function setLanguage(language) {
+    console.log('Setting language to:', language);
+    var url = window.location.href;
+    var newUrl;
+
+    // Remove the hash and everything after it
+    url = url.split('#')[0];
+
+    // Check if the language is 'en'
+    if (language === 'en') {
+        // Remove any existing language code and redirect to .html
+        newUrl = url.replace(/_[a-z]{2}\.html$/, '.html');
+    } else {
+        // Check if the URL already contains a language code
+        if (url.match(/_[a-z]{2}\.html$/)) {
+            // Replace the existing language code
+            newUrl = url.replace(/_[a-z]{2}\.html$/, `_${language}.html`);
+        } else {
+            // Insert the language code before the .html extension
+            newUrl = url.replace(/\.html$/, `_${language}.html`);
+        }
+    }
+
+    // Redirect to the new URL
+    window.location.href = newUrl;
+}
+</script>
+
+</script>
+
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-eMNOMsYLnykXw+qBy82tB7/wtCjK4ibXG6NFf6e+1EDGpH8x5KME22FiL3Xb2obk" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4Ag4NZF/fn4+CfFROEQpgt5FxSRF0p4zSUqLzXvq2DmlH5ZWx5Ek" crossorigin="anonymous"></script> -->
+
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<!-- Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
 </body>
 </html>
